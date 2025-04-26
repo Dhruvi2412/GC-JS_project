@@ -1,1 +1,0 @@
-# GC-JS_project

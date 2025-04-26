@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro Timer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Pomodoro Timer</h2>
+
+        <!-- Purpose input field -->
+        <div class="purpose">
+            <label for="purpose">Purpose of this session:</label>
+            <input type="text" id="purpose" placeholder="Enter your task purpose...">
+        </div>
+
+        <!-- Timer selection dropdown -->
+        <div class="time-selection">
+            <label for="timerDuration">Select Time:</label>
+            <select id="timerDuration">
+                <option value="300">5 min</option>
+                <option value="600">10 min</option>
+                <option value="900">15 min</option>
+                <option value="1200">20 min</option>
+                <option value="1500" selected>25 min</option>
+                <option value="1800">30 min</option>
+            </select>
+        </div>
+
+        <!-- Timer Display -->
+        <div id="timerDisplay" class="timer-display">25:00</div>
+        <div class="buttons">
+            <button id="startButton">Start</button>
+            <button id="resetButton">Reset</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
