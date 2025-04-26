@@ -1,0 +1,96 @@
+* {
+    margin: 10px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #7fb3d5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.container {
+    text-align: center;
+    background-color: #5499c7;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 300px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #21618c;
+}
+
+.purpose {
+    margin-bottom: 10px;
+}
+
+.purpose input {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    margin-top: 5px;
+    border-radius: 5px;
+    font-family: monospace;
+    background-color: #1f618d;
+    border: 1px solid #5499c7;
+}
+
+.time-selection {
+    margin-bottom: 10px;
+}
+
+.time-selection select {
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    font-family: monospace;
+    border: 1px solid #5499c7;
+    background-color:#1f618d ;
+    width: 100%;
+}
+
+.timer-display {
+    font-size: 60px;
+    margin: 20px;
+    color: #333;
+}
+
+.session-type {
+    font-size: 20px;
+    color: #555;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #85c1e9;
+    color: rgb(31, 27, 27);
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color:#5dade2;
+}
+
+button:disabled {
+    background-color: #a9cce3;
+    cursor: not-allowed;
+}
